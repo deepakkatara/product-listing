@@ -1,0 +1,80 @@
+{
+  "name": "pokedex",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "rsuite": "^5.19.0",
+    "rxjs": "^7.5.7",
+    "sass": "^1.55.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "tsc": "tsc",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint-fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test:coverage": "react-scripts test --coverage --watchAll=false --collectCoverageFrom='src/**/*.{ts,tsx}' --collectCoverageFrom='!src/**/*.stories.{ts,tsx}' --collectCoverageFrom='!src/**/*.story.{ts,tsx}' --collectCoverageFrom='!src/**/index.{ts,tsx,js,jsx}' --collectCoverageFrom='!src/reportWebVitals.ts' --collectCoverageFrom='!src/setupTests.ts'"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/react-webpack5": "^8.2.9",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "babel-plugin-named-exports-order": "0.0.2",
+    "eslint": "8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-testing-library": "^5.6.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-environment-jsdom": "^27.5.1",
+    "jest-fetch-mock": "^3.0.3",
+    "prop-types": "^15.8.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "4.9.5",
+    "webpack": "^5.74.0"
+  },
+  "overrides": {
+    "typescript": "4.9.5",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.0",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1"
+  }
+}
